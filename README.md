@@ -1,2 +1,5 @@
-# icwill.github.io
+# isabellecleo.github.io
 Isabelle Williams: Personal
+
+Framework: Vue.JS - highly recommend! 
+HTML/CSS
