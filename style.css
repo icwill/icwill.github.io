@@ -16,13 +16,41 @@
 	text-align:center;
 }
 
+a {
+	color: #8243f7;
+}
+a:hover {
+	color: #8243f7;
+}
+
 /* Main section*/
 #top {
 	margin-bottom: 2em;
 }
+.parentMain {
+	display: flex;
+ 	flex-wrap: wrap;
+}
+
+.card {
+	border: 0;
+}
+
+h5 {
+	font-size: 2rem;
+}
+
+.icon {
+	max-width: 2.3em;
+	margin-right: 2%;
+	transition: transform .2s; /* Animation */
+}
+.icon:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 /* Nav buttons */
-.parent {
+.parentNav {
 	display: flex;
  	flex-wrap: wrap;
     margin-left: 10em;
