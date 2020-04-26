@@ -98,5 +98,6 @@ button {
 /* Image */
 .headshot {
 	max-width: 15em;
+	max-height: 25em;
 	border-radius: 50%;
 }
