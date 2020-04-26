@@ -36,17 +36,30 @@ a:hover {
 	border: 0;
 }
 
+.card-text {
+	padding-left:2.8em;
+	font-size: 1.05rem;
+}
+
 h5 {
 	font-size: 2rem;
 }
 
 .icon {
-	max-width: 2.3em;
-	margin-right: 2%;
+	max-width: 2em;
+	margin: .5em;
 	transition: transform .2s; /* Animation */
 }
 .icon:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.grey {
+	color: #878787;
+}
+
+.row {
+	justify-content: center;
 }
 
 /* Nav buttons */
@@ -73,6 +86,11 @@ button {
 }
 
 .btn-primary:hover {
+	background-color: #8243f7;
+	border-color:  #8243f7;
+}
+
+.btn-primary:active {
 	background-color: #8243f7;
 	border-color:  #8243f7;
 }
