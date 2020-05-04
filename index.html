@@ -1,21 +1,22 @@
 <html>
 	<head>
 		<title>Isabelle Williams: Personal</title>
-		<link rel="icon" href="images/meEmoji.png">
+		<link rel="icon" href="images/meEmoji.png"></link>
 		
         <!-- Vue -->
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
 		<!-- Bootstrap 4 -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<!-- Custom styling -->
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css"></link>
 	</head>
 
 	<body>
+		<div id="app">
 		<div id="outter">
 			<div class="container" id="inner">
 				
@@ -23,11 +24,11 @@
 				  <div class="col-8">
 				  	<div class="card">
 					  <div class="card-body">
-					    <h5 class="card-title">string isabelleWilliams() {</h5>
-					    <p class="card-text"><span class="grey">cout << </span>"I’m a University of Michigan 2020 graduate with a B.S. in Computer Science. Outside of class, I was an Instructional Aide for <a href="https://www.eecs183.org">EECS 183</a>, and a member of <a href="https://kappathetapi.com/">Kappa Theta Pi</a>. </p>
+					    <h5 class="card-title">{{displayed.title}}</h5>
+					    <p class="card-text"><span class="grey">{{displayed.openCout}}</span>{{displayed.about1}}<a href="https://www.eecs183.org">{{displayed.about2}}</a>{{displayed.about3}}<a href="https://kappathetapi.com/">{{displayed.about4}}</a>{{displayed.about5}}</p>
 						<p class="card-text">
-						I’ll be a Program Manager at <a href="https://www.microsoft.com">Microsoft</a>
-						beginning fall 2020. Until then, I’m learning to crochet, working on my distance running, and teaching at <a href="https://www.the-cs.org/">The Coding School</a>."<span class="grey"> << endl;</span></p>
+						{{displayed.about6}}<a href="https://www.microsoft.com">{{displayed.about7}}</a>
+						{{displayed.about8}}<a href="https://www.the-cs.org/">{{displayed.about9}}</a>{{displayed.about10}}<span class="grey">{{displayed.about11}}</span></p>
 						<p class="card-text">
 						<!--
 						<a href="https://github.com/icwill"><img src="images/resume.png" class="icon" alt="Github"><span class="grey">= </span>getResume</a><span class="grey">(); </span> <br>
@@ -36,9 +37,9 @@
 						-->
 						</p>
 						<p class="card-text">
-						<span class="grey">return </span>"isabellewilliams3[at]gmail.com"<span class="grey">; </span>
+						<span class="grey">{{displayed.about12}}</span>{{displayed.about13}}<span class="grey">{{displayed.about14}}</span>
 						</p>
-					    <h5>}</h5>
+					    <h5>{{displayed.about15}}</h5>
 					  </div>
 					</div>
 				  </div>
@@ -64,10 +65,10 @@
 				</div>
 			</div>
 		</div>
+		</div>
 		  
-	
-
-	<script src="script.js"></script>	
+		<script src="script.js"></script>	
 	</body>
+
 	
 </html>
