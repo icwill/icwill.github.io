@@ -17,32 +17,80 @@
 
 	<body>
 		<div id="app">
-		<div id="outter">
-			<div class="container" id="inner">
+			<div class="container" >
 				
 				<div class="row " id="top">
 				  <div class="col-8">
 				  	<div class="card">
 					  <div class="card-body">
-					    <h5 class="card-title">{{displayed.title}}</h5>
-					    <p class="card-text"><span class="grey">{{displayed.openCout}}</span>{{displayed.about1}}<a href="https://www.eecs183.org">{{displayed.about2}}</a>{{displayed.about3}}<a href="https://kappathetapi.com/">{{displayed.about4}}</a>{{displayed.about5}}</p>
-						<p class="card-text">
-						{{displayed.about6}}<a href="https://www.microsoft.com">{{displayed.about7}}</a>
-						{{displayed.about8}}<a href="https://www.the-cs.org/">{{displayed.about9}}</a>{{displayed.about10}}<span class="grey">{{displayed.about11}}</span></p>
-						<p class="card-text">
-						<!--
-						<a href="https://github.com/icwill"><img src="images/resume.png" class="icon" alt="Github"><span class="grey">= </span>getResume</a><span class="grey">(); </span> <br>
-						<a href="https://github.com/icwill"><img src="images/github.svg" class="icon" alt="Github"><span class="grey">= </span> getGithub</a><span class="grey">(); </span> <br>
-						 <a href="https://www.linkedin.com/in/isabelle-c-williams/" ><img src="images/linkedin.svg" class="icon" alt="LinkedIn"><span class="grey">= </span> getLinkedIn</a><span class="grey">(); </span> <br>
-						-->
+					  	<!-- About -->
+					    <h5 class="card-title">{{displayed.aboutTitle}}</h5>
+					    <p class="card-text">
+					    	<span class="grey">{{displayed.about0}}</span>
+					    	{{displayed.about1}}
+					    	<a href="https://www.eecs183.org">{{displayed.about2}}</a>
+					    	{{displayed.about3}}
+					    	<a href="https://kappathetapi.com/">{{displayed.about4}}</a>
+					    	{{displayed.about5}}
+					    </p>
+					    <p class="card-text">
+					   
+							{{displayed.about6}}
+							<a href="https://www.microsoft.com">{{displayed.about7}}</a>
+							{{displayed.about8}}
+							<a href="https://www.the-cs.org/">{{displayed.about9}}</a>
+							{{displayed.about10}}
+							<span class="grey">{{displayed.about11}}</span>
+
 						</p>
 						<p class="card-text">
-						<span class="grey">{{displayed.about12}}</span>{{displayed.about13}}<span class="grey">{{displayed.about14}}</span>
+							<button type="button" class="btn btn-primary" v-on:click="experienceShown = !experienceShown">showExperience();</button>
+							<!-- Experience -->
+							<div class="card" v-show="experienceShown" >
+							  <div class="card-body popupBorder">
+							    <p class="card-text "><strong>Industry:</strong></p>
+							    <p class="card-text ">
+							    	<span class="grey">Beginning Fall 2020:</span> Program Manager @ Microsoft
+							    	<br>
+							    	<span class="grey">Summer 2019:</span> Software Engineer Intern @ Microsoft
+							    </p>
+							    <p class="card-text "><strong>Teaching:</strong></p>
+								<p class="card-text">
+							    	<span class="grey">Summer 2020:</span> 1:1 Python Tutor @ The Coding School
+							    	<br>
+							    	<span class="grey">2019-2020:</span> EECS 183 Instructional Assistant @ University of Michigan
+							    </p>
+							  </div>
+							</div>
+						</p>
+						<p class="card-text">
+							<button type="button" class="btn btn-primary" v-on:click="educationShown = !educationShown">showEducation();</button>
+							  <!-- Education -->
+							  <div class="card" v-show="educationShown">
+							  <div class="card-body popupBorder">
+							    <p class="card-text noPad">
+							    	<strong>B.S. Computer Science (2020)</strong><br>University of Michigan
+							    </p>
+							    <p class="card-text noPad">
+							    	<span class="grey">CS courses I loved:</span> Machine Learning, Web Systems, Computer Security, UI Design, Computational Analysis of Big Data
+							    </p>
+							    <p class="card-text noPad">
+							    	<span class="grey">My favorite non-CS courses:</span> Sex and Sexuality in Popular Culture, Law and Society, Jewish History, Intro Sociology
+							    </p>
+							  </div>
+							</div>
+						</p>
+						<p class="card-text">
+							<span class="grey">{{displayed.about12}}</span>
+							{{displayed.about13}}
+							<span class="grey">{{displayed.about14}}</span>
 						</p>
 					    <h5>{{displayed.about15}}</h5>
 					  </div>
 					</div>
 				  </div>
+
+				  <!-- Headshot and buttons -->
 				  <div class="col-4">
 				  	<div class="row">
 					  	<img class="headshot" src="images/Headshot_2018.jpg">
@@ -54,21 +102,9 @@
 					</div>
 				  </div>
 				</div>
-			
-			
-
-				<div class="parentNav " id="bottom">
-				  <div class="child " id="center"><button type="button" class="btn btn-primary">Me</button></div>
-				  <div class="child " id="center"><button type="button" class="btn btn-primary">Experience</button></div>
-				  <div class="child " id="center"><button type="button" class="btn btn-primary">Education</button></div>
-				  <div class="child " id="center"><button type="button" class="btn btn-primary">Skills</button></div>
-				</div>
 			</div>
 		</div>
 		</div>
-		  
 		<script src="script.js"></script>	
 	</body>
-
-	
 </html>

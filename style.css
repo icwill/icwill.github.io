@@ -1,14 +1,5 @@
-#outter {
-	height: 100%;
-	position: relative;
-	align-content: center;
-}
-
-#inner{
-	position: absolute;
-  	top: 40%;
-  	left: 50%;
-  	transform: translate(-50%, -40%);
+.container {
+	padding-top: 10em;
 }
 
 #center {
@@ -39,6 +30,18 @@ a:hover {
 .card-text {
 	padding-left:2.8em;
 	font-size: 1.05rem;
+}
+
+.card-body {
+	padding: 0;
+}
+
+.popupBorder {
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	padding-right:2.8em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
 }
 
 h5 {
@@ -76,7 +79,7 @@ h5 {
 }
 
 button {
-	width: 8em;
+	/*width: 8em;*/
 }
 
 .btn-primary {

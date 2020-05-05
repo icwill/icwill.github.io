@@ -1,13 +1,11 @@
 var app = new Vue({
     el: '#app',
     data: {
-      aboutMe: true,
-      experience: false,
-      education: false,
-      skills: false,
+      educationShown: false,
+      experienceShown: false,
       displayed: {
-      	title: '',
-      	openCout: '',
+      	aboutTitle: '',
+      	about0: '',
       	about1: '',
       	about2: '',
       	about3: '',
@@ -22,12 +20,12 @@ var app = new Vue({
       	about12: '',
       	about13: '',
       	about14: '',
-      	about15: '',
+      	about15: ''
       },
       about: {
-      	title: 'string isabelleWilliams() {',
-      	openCout: 'cout << ',
-      	about1: '"I\'m a University of Michigan 2020 graduate with a B.S. in Computer Science. Outside of class, I was an Instructional Aide for ',
+      	aboutTitle: 'string isabelleWilliams() {',
+      	about0: 'cout << ',
+      	about1: '"Hi there! I\'m a University of Michigan 2020 graduate with a B.S. in Computer Science. Outside of class, I was an Instructional Aide for ',
       	about2: 'EECS 183',
       	about3: ', and a member of ',
       	about4: 'Kappa Theta Pi',
@@ -39,12 +37,10 @@ var app = new Vue({
       	about10: '."',
       	about11: ' << endl;',
       	about12: 'return ',
-      	about13: '"isabellewilliams3[at]gmail.com"',
+      	about13: '"isabellewilliams3@gmail.com"',
       	about14: '; ',
       	about15: '}',
       },
-    },
-    methods: {
       
     },
     mounted () {
