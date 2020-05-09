@@ -4,11 +4,18 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 */
 /*1rem = 16px*/
 .card-text {
-	font-size: 2rem;
-}
-h5 {
-	font-size: 2rem;
-}
+	font-size: 1.85rem;
+	}
+	h5 {
+		font-size: 2.1rem;
+	}
+	.btn {
+		font-size: 1.85rem;
+	}
+	.headshot {
+		max-width: 11.25em;
+		max-height: 15em;
+	}
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -22,10 +29,17 @@ Bootstrap 4 breakpoints
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
   .card-text {
-	font-size: 1.75rem;
+	font-size: 1.85rem;
 	}
 	h5 {
-		font-size: 2rem;
+		font-size: 2.1rem;
+	}
+	.btn {
+		font-size: 1.85rem;
+	}
+	.headshot {
+		max-width: 11.25em;
+		max-height: 15em;
 	}
 }
  
@@ -37,6 +51,9 @@ Bootstrap 4 breakpoints
 	h5 {
 		font-size: 1.5rem;
 	}
+	.btn {
+		font-size: 1.35rem;
+	}
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -47,16 +64,22 @@ Bootstrap 4 breakpoints
 	h5 {
 		font-size: 1.25rem;
 	}
+	.btn {
+		font-size: 1.1rem;
+	}
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-  .card-text {
-	font-size: 1.1rem;
-}
-h5 {
-	font-size: 1.25rem;
-}  
+    .card-text {
+		font-size: 1.1rem;
+	}
+	h5 {
+		font-size: 1.25rem;
+	}  
+	.btn {
+		font-size: 1.1rem;
+	}
 }
  
 
