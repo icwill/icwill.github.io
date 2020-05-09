@@ -4,18 +4,23 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 */
 /*1rem = 16px*/
 .card-text {
-	font-size: 1.85rem;
+	font-size: 1.95rem;
 	}
 	h5 {
-		font-size: 2.1rem;
+		font-size: 2.2rem;
 	}
 	.btn {
-		font-size: 1.85rem;
+		font-size: 1.95rem;
 	}
 	.headshot {
-		max-width: 11.25em;
-		max-height: 15em;
+		max-width: 19.75em;
+		max-height: 13em;
 	}
+
+.icon {
+	max-width: 3em;
+	margin: .3em;
+}
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -29,17 +34,21 @@ Bootstrap 4 breakpoints
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
   .card-text {
-	font-size: 1.85rem;
+	font-size: 1.95rem;
 	}
 	h5 {
-		font-size: 2.1rem;
+		font-size: 2.2rem;
 	}
 	.btn {
-		font-size: 1.85rem;
+		font-size: 1.95rem;
 	}
 	.headshot {
-		max-width: 11.25em;
-		max-height: 15em;
+		max-width: 9.75em;
+		max-height: 13em;
+	}
+	.icon {
+		max-width: 3em;
+		margin: .3em;
 	}
 }
  
@@ -54,6 +63,14 @@ Bootstrap 4 breakpoints
 	.btn {
 		font-size: 1.35rem;
 	}
+	.headshot {
+		max-width: 15em;
+		max-height: 20em;
+	}
+	.icon {
+		max-width: 3em;
+		margin: .3em;
+	}
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -67,6 +84,14 @@ Bootstrap 4 breakpoints
 	.btn {
 		font-size: 1.1rem;
 	}
+	.headshot {
+		max-width: 15em;
+		max-height: 20em;
+	}
+	.icon {
+		max-width: 2em;
+		margin: .5em;
+	}
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
@@ -79,6 +104,14 @@ Bootstrap 4 breakpoints
 	}  
 	.btn {
 		font-size: 1.1rem;
+	}
+	.headshot {
+		max-width: 15em;
+		max-height: 20em;
+	}
+	.icon {
+		max-width: 2em;
+		margin: .5em;
 	}
 }
  
