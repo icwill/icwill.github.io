@@ -151,6 +151,13 @@ a:hover {
 	padding: 0;
 }
 
+ul {
+  list-style-type: circle;
+}
+li {
+  margin-left:2.8em;
+}
+
 .popupBorder {
 	border: 1px solid rgba(0,0,0,.125);
 	border-radius: .25rem;
