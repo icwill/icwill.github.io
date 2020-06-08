@@ -5,6 +5,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /*1rem = 16px*/
 	.card-text {
 		font-size: 2rem;
+		padding-left: 1.5rem;
 	}
 	h5 {
 		font-size: 2.35rem;
@@ -34,6 +35,7 @@ Bootstrap 4 breakpoints
 @media (min-width: 544px) {  
     .card-text {
 		font-size: 1.95rem;
+		padding-left: 1.5rem;
 	}
 	h5 {
 		font-size: 2.2rem;
@@ -55,6 +57,7 @@ Bootstrap 4 breakpoints
 @media (min-width: 768px) {  
 	.card-text {
 		font-size: 1.35rem;
+		padding-left: 2rem;
 	}
 	h5 {
 		font-size: 1.5rem;
@@ -76,6 +79,7 @@ Bootstrap 4 breakpoints
 @media (min-width: 992px) { 
   	.card-text {
 		font-size: 1.1rem;
+		padding-left: 2.8rem;
 	}
 	h5 {
 		font-size: 1.25rem;
@@ -97,6 +101,7 @@ Bootstrap 4 breakpoints
 @media (min-width: 1200px) {  
     .card-text {
 		font-size: 1.1rem;
+		padding-left: 2.8rem;
 	}
 	h5 {
 		font-size: 1.25rem;
@@ -156,6 +161,7 @@ ul {
 }
 li {
   margin-left:2.8em;
+  font-size: 1.1rem;
 }
 
 .popupBorder {
