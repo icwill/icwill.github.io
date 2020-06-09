@@ -14,8 +14,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 		font-size: 1.9rem;
 	}
 	.headshot {
-		max-width: 9.75em;
-		max-height: 13em;
+		max-width: 0em;
+		max-height: 0em;
 	}
 	.icon {
 		max-width: 3.5em;
@@ -44,8 +44,8 @@ Bootstrap 4 breakpoints
 		font-size: 1.95rem;
 	}
 	.headshot {
-		max-width: 9.75em;
-		max-height: 13em;
+		max-width: 0em;
+		max-height: 0em;
 	}
 	.icon {
 		max-width: 3.5em;
