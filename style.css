@@ -32,8 +32,8 @@ M E D I A  Q U E R I E S
 Bootstrap 4 breakpoints
 */
 /* Small devices (landscape phones, 544px and up) */
-/*@media (min-width: 544px) {  
-    .card-text {
+@media (min-width: 544px) {  
+    /*.card-text {
 		font-size: 1.95rem;
 		padding-left: 1.5rem;
 	}
@@ -42,10 +42,10 @@ Bootstrap 4 breakpoints
 	}
 	.btn {
 		font-size: 1.95rem;
-	}
+	}*/
 	.headshot {
-		max-width: 0em;
-		max-height: 0em;
+		max-width: 1em;
+		max-height: 1em;
 	}
 	.icon {
 		max-width: 3.5em;
@@ -88,8 +88,8 @@ Bootstrap 4 breakpoints
 		font-size: 1.1rem;
 	}*/
 	.headshot {
-		max-width: 15em;
-		max-height: 20em;
+		max-width: 11.25em;
+		max-height: 15em;
 	}
 	.icon {
 		max-width: 2em;
