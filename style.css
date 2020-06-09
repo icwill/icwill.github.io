@@ -138,6 +138,8 @@ a:hover {
 /* Main section*/
 #top {
 	margin-bottom: 2em;
+	margin-left: 2.5em;
+	margin-top: 7em;
 }
 .parentMain {
 	display: flex;
